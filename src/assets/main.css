@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .container {
+        @apply max-w-[1440px]
+    }
+    .divider{
+        display: flex;
+        height: 1px;
+        border: 1px solid #E9E9E9
+    }
+}
